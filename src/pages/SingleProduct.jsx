@@ -18,12 +18,12 @@ const SingleProduct = () => {
     useProductCustom();
 
   const {
-    id: alice,
+    // id: alice,
     name,
     company,
     price,
     description,
-    category,
+    // category,
     stars,
     stock,
     reviews,
