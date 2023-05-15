@@ -1,0 +1,119 @@
+
+
+.single-product-full-container{
+
+    width: 30vh;
+    /* height: 27vh; */
+    background-color: #fefefe;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.single-product-image-title {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0.5rem; */
+    height: 20vh;
+}
+
+
+.single-product-image-title span{
+    position: absolute;
+    background-color: #fefefe;
+    color: #959595;
+    font-size: 14px;
+    margin-top: -7rem;
+   margin-right: -15vh;
+   padding-right: 13px;
+   padding-left: 13px;
+   padding-top: 2px;
+   padding-bottom: 2px;
+   border-radius: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: 0.9s;
+ 
+}
+
+.single-product-image-title span:hover{
+    position: absolute;
+    background-color:#959595 ;
+    color: #fefefe;
+   
+ 
+}
+
+.single-product-image-title img{
+   
+    width:95% ;
+    height: 95%;
+    filter: brightness(90%);
+    
+    /* position: relative; */
+}
+
+.single-product-image-title img:hover{
+   
+    width:100% ;
+    height: 100%;
+    filter: brightness(55%);
+    transition: 0.5s;
+    
+  
+}
+
+.single-product-price-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+    gap: 3rem;
+}
+
+.product-name{
+        display: flex;
+        justify-content: left;
+        align-items: start;
+        text-align: left;
+        color: #424242;
+        /* background-color: blue; */
+
+
+}
+
+.product-price{
+    display: flex;
+    text-align: end;
+    /* background-color: aqua; */
+    justify-content:end;
+    color: #2fc795;
+
+}
+
+@media (max-width:320px) {
+    
+    .single-product-price-name{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    .single-product-image-title span{
+        position: absolute;
+        
+        font-size: 14px;
+        /* margin-top: -7rem;
+       margin-left: 16vh;
+       padding-right: 15px;
+       padding-left: 15px;
+       padding-top: 2px;
+       padding-bottom: 2px;
+       border-radius: 20px; */
+    }
+
+
+}
