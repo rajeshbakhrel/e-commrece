@@ -104,3 +104,41 @@
 .short-list{
     margin-top: 1rem;
 } */
+
+
+@media (max-width:400px) {
+    .product-icon{
+        /* color: white; */
+        font-size: 15px;
+        padding: 0.5rem;
+       
+        margin-right: 0.3rem;
+      
+    
+    }
+
+    .product-gid-view p{
+      
+        margin-left: 0.5rem;
+    }
+
+    
+.product-gid-view{
+    flex: 1;
+    
+ 
+}
+
+.product-number{
+    flex: 2;
+    
+}
+
+.product-price-search{
+    /* background-color: green; */
+    flex: 1;
+    margin-right: 0.5rem;
+    /* width: 15rem   ; */
+
+}
+}
